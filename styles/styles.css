@@ -1,0 +1,74 @@
+header {
+  margin: 13px 0 83px;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul-header {
+  display: flex;
+  gap: 10px;
+}
+.ul-header li {
+  font-family: 'Staatliches';
+  line-height: 28px;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+}
+.info-header {
+  display: flex;
+  align-items: center;
+}
+.info-header p {
+  margin-right: 50px;
+}
+header .container p {
+  font-family: 'TourneyBold';
+  font-size: 22px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  color: #000000;
+}
+.logo {
+  width: 238px;
+  height:54px;
+}
+ article {
+   margin-bottom: 70px;
+ }
+
+.sub-title {
+  display: flex;
+  gap: 10px;
+  font-family: 'Francois One';
+  font-size: 36px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.sub-title span {
+  font-family: 'Farro';
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  font-weight: 300;
+}
+.text p {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+.section {
+   text-decoration: underline;
+}
+.color-text {
+  background-color: #bcbcbc;
+}
+
